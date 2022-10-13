@@ -1,4 +1,4 @@
-# Google-Data-Analytics-Capstone-Project-Bellabeat
+# Google Data Analytics Capstone Project - Bellabeat
 
 ## Bellabeat Case Study
 
@@ -99,7 +99,7 @@ LogID, because it is not needed for any analysis
 Time, because it is not needed for any analysis
 Merged the above datasets into merged_activity_sleep (merger of daily_activity and sleep), merged_activity_weight (merger of daily_activity and weight), and merged_data (merger of all 3 datasets). This was done using the merge function to allow for analysis 
 
-Analyze
+### Analyze
 
 The first step is checking the summary statistics of the 3 datasets using the summary function
 Checking how users track their weight
@@ -147,6 +147,7 @@ Plotting Calories Burned vs Minutes Active
 As expected, higher activity levels burn more calories
 Again, being fairly active for a longer time is at least as, if not more, energy demanding than being fairly active for a shorter time
 
-Share
+### Share
 
 
+### Act
