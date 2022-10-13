@@ -1,6 +1,6 @@
 # Google-Data-Analytics-Capstone-Project-Bellabeat
 
-Bellabeat Case Study
+## Bellabeat Case Study
 
 Ask
 
