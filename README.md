@@ -2,14 +2,14 @@
 
 ## Bellabeat Case Study
 
-Ask
+### Ask
 
 Business task:  Analyze FitBit user data to discover trends that can be applied to Bellabeat users to inform Bellabeat's marketing strategy
 
 Primary Stakeholders:  Executive team
 Secondary stakeholders:  Marketing analytics team
 
-Prepare 
+### Prepare 
 
 The downloaded zip file contains 18 CSV files.
 
@@ -29,7 +29,7 @@ I am choosing to work with the datasets that focus on the daily use of FitBit as
 The datasets used are: dailyActivity, sleep, and weight.
 These are in long format.
 
-Process
+### Process
 
 The data is processed in R for ease of data transformation and visualization.
 
