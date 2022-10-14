@@ -16,6 +16,7 @@ weight_cleaned %>%
   summarise("Automatic Weight Report"=n()) %>%
   distinct()
 ```
+*
   * Only 8 users track their weight, which is a tiny sample to perform analysis on. 
   * Of these, 5 people logged their data manually, out of which 4 people logged infrequently. 
   * Out of the 3 who tracked their weight automatically through a device, 2 did so only once. 
