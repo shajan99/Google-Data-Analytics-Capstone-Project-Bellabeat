@@ -1,8 +1,13 @@
 ### Analyze
 
-* The first step is checking the summary statistics of the 3 datasets using the summary function
+The first step is checking the summary statistics of the 3 datasets using the summary function
+```
+summary(daily_activity_cleaned)
+summary(sleep_cleaned)
+summary(weight_cleaned)
+```
 
-* Checking how users track their weight
+Checking how users track their weight
 ```
 weight_cleaned %>% 
   filter(IsManualReport == "True") %>% 
@@ -16,14 +21,16 @@ weight_cleaned %>%
   summarise("Automatic Weight Report"=n()) %>%
   distinct()
 ```
-*
   * Only 8 users track their weight, which is a tiny sample to perform analysis on. 
   * Of these, 5 people logged their data manually, out of which 4 people logged infrequently. 
   * Out of the 3 who tracked their weight automatically through a device, 2 did so only once. 
   * These findings suggest that this dataset is weak, so I conducted no further analysis using this dataset.
 
-* Are users falling asleep in a proper time frame
+Are users falling asleep in a proper time frame
   * According to [Healthline Media](https://www.healthline.com/health/healthy-sleep/how-long-does-it-take-to-fall-asleep), which has strict sourcing guidelines, normal sleep for adults means falling asleep within 10 to 20 minutes.
+  ```
+  
+  ```
   * 20 people out of 24 took more than 20 minutes to fall asleep.
   * 5 users had a recurring problem with falling asleep within 20 minutes (more than 20 times over the 2-month time frame)
   * If this is a regular occurrence for a user, then they may have an issue, such as insomnia being on their phones.
