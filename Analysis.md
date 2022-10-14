@@ -7,6 +7,8 @@ summary(sleep_cleaned)
 summary(weight_cleaned)
 ```
 
+![Summary](https://user-images.githubusercontent.com/89126845/195809430-b476f17e-e189-42b4-8cd6-3490f94688b8.PNG)
+
 
 #### Checking how users track their weight
 ```
