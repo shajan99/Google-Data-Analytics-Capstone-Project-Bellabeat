@@ -6,7 +6,7 @@ The scenario is set as follows:
 
 I am a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. I have been asked to focus on FitBit Fitness Tracker data to gain insight into how consumers are using their smart devices. The insights I discover will then be applied to a Bellabeat procduct of my choice and help guide marketing strategy for the company. 
 
-### Ask phase
+## Ask phase
 
 **Business task**:  Analyze FitBit user data to discover trends that can be applied to Bellabeat users to inform Bellabeat's marketing strategy
 
@@ -15,7 +15,7 @@ I am a junior data analyst working on the marketing analyst team at Bellabeat, a
 **Secondary stakeholders**:  Marketing analytics team
 
 
-### Prepare phase
+## Prepare phase
 
 The downloaded zip file contains 18 CSV files.
 
@@ -39,7 +39,7 @@ The datasets used are: daily_activity, sleep, and weight.
 These datasets are in long format.
 
 
-### Process phase
+## Process phase
 
 The data is processed in R for ease of data transformation and visualization.
 
