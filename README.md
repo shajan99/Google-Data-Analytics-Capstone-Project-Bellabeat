@@ -23,13 +23,15 @@ Putting the data through the ROCCC process:
 
 Limitations in the data:
 * 30 subjects are the minimum number required for the Central Limit Theorem to hold, so statistical tests can be run on this dataset. But it would be better if data for more users were available so that better analysis can be carried out.
-
 * The number of user IDs across the datasets is inconsistent, meaning that not all users entered complete data.
+* In the weight dataset, the 6 of the 8 users who logged their data have done so inconsistently, making this dataset weak. 
+
 
 I am choosing to work with the datasets that focus on the daily use of FitBit as it is a lifestyle product. It matters more about what FitBit is used for in their day-to-day life, and where FitBit excels and falls short in this time frame. 
 
-The datasets used are: dailyActivity, sleep, and weight.
-These are in long format.
+The datasets used are: daily_activity, sleep, and weight.
+
+These datasets are in long format.
 
 ### Process
 
@@ -37,27 +39,26 @@ The data is processed in R for ease of data transformation and visualization.
 
 Descriptions of each dataset along with error checks are as follows:
 
-daily_activity
-This dataset entirely includes the dailyCalories, dailyIntensities, and dailySteps data
-Contains data for 33 unique IDs, which is more than the number of participants that took part in this survey.
-ActivityDate variable should be date type instead of character type
-TotalSteps is the number of steps taken in a day
-TotalDistance is the total distance covered during a day through steps
-TrackerDistance is largely conveying the same data as TotalDistance, so this column is being dropped
-LoggedActivitiesDistance is ambiguous. Intuition is that this data is manually entered by the user. Since most values are zero, this column is being dropped
-VeryActiveDistance is the distance covered by the user during vigorous activity
-ModeratelyActiveDistance is the distance covered by the user during moderate activity
-LightlyActiveDistance is the distance covered by the user during light activity
-SedentaryActiveDistance is the distance covered by the user during little to no activity
-VeryActiveMinutes is the duration the user engages in vigorous activity
-ModeratelyActiveMinutes is the duration the user engages in moderate activity
-FairlyActiveMinutes is the duration the user engages in light activity
-SedentaryActiveMinutes is the duration the user engages in little to activity
-Calories is the number of calories expended during the day
-sleep
+* daily_activity
+  * This dataset entirely includes the dailyCalories, dailyIntensities, and dailySteps data
+  * Contains data for 33 unique IDs, which is more than the number of participants that took part in this survey.
+  * ActivityDate variable should be date type instead of character type
+  * TotalSteps is the number of steps taken in a day
+  * TotalDistance is the total distance covered during a day through steps
+  * TrackerDistance is largely conveying the same data as TotalDistance, so this column is being dropped
+  * LoggedActivitiesDistance is ambiguous. Intuition is that this data is manually entered by the user. Since most values are zero, this column is being dropped
+  * VeryActiveDistance is the distance covered by the user during vigorous activity
+  * ModeratelyActiveDistance is the distance covered by the user during moderate activity
+  * LightlyActiveDistance is the distance covered by the user during light activity
+  * SedentaryActiveDistance is the distance covered by the user during little to no activity
+  * VeryActiveMinutes is the duration the user engages in vigorous activity
+  * ModeratelyActiveMinutes is the duration the user engages in moderate activity
+  * FairlyActiveMinutes is the duration the user engages in light activity
+  * SedentaryActiveMinutes is the duration the user engages in little to activity
+  * Calories is the number of calories expended during the day
 
-
-Contains data for 24 unique IDs
+* sleep
+  * Contains data for 24 unique IDs
 SleepDay should be split into Date & Time. Time column should be dropped as it is unnecessary for daily level analysis. Date column should be date type instead of character type
 TotalSleepRecords is ambiguous. This column is being dropped.
 TotalMinutesAsleep is the duration the user spent sleeping
