@@ -46,7 +46,7 @@ weight_cleaned %>%
 
   * 20 people out of 24 took more than 20 minutes to fall asleep.
   * 5 users had a recurring problem with falling asleep within 20 minutes (more than 20 times over the 2-month time frame)
-  * If this is a regular occurrence for a user, then they may have an issue, such as insomnia being on their phones.
+  * If this is a regular occurrence for a user, then they may have an issue, such as insomnia or being on their phones after getting in bed.
 
 
 #### Are users getting enough active minutes
