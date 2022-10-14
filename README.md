@@ -114,3 +114,4 @@ The data is processed in R for ease of data transformation and visualization.
 ## Continue to:
 1. *R code*, for all code, including error checks, data cleaning, data transformation, and analysis
 2. *Analysis and Visualtizations*, for a summary of the analysis carried out and the visualizations produced
+3. *Recommendations*, for my final recommendations to the Bellabeat team
