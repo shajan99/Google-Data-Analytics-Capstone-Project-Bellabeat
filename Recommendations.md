@@ -1,4 +1,4 @@
-## Act phase
+### Act phase
 
 I am applying my insights to Bellabeat's product, Ivy, a wellness tracker for women with the following features:
 * Cycle tracking
@@ -13,7 +13,7 @@ I am applying my insights to Bellabeat's product, Ivy, a wellness tracker for wo
 * Readiness score based on the body's bio response
 * Wellness score based on efforts throughout the day
 
-### Recommendations:
+#### Recommendations:
 
 1. Users have a problem with tracking weight. To tackle this problem, send users regular reminders on the Bellabeat app to log their weight if they start tracking it.
 2. Congratulate users in the morning if they sleep for the recommended 7 hours. Ivy's sleep duration and sleep quality tracking feature can help in this.
