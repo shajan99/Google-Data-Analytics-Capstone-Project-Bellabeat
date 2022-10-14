@@ -1,6 +1,6 @@
 # Google Data Analytics Capstone Project - Bellabeat
 
-## Welcome to my capstone project for the Google Data Analytics Certification. In this project, I highlight the data analysis skills I learned during the course using R.
+Welcome to my capstone project for the Google Data Analytics Certification. In this project, I highlight the data analysis skills I learned during the course using R.
 
 The scenario is set as follows:
 
