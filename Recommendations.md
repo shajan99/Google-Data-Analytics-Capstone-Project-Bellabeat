@@ -22,6 +22,6 @@ I am applying my insights to Bellabeat's product, Ivy, a wellness tracker for wo
 5. If a user is under 5000 steps by sunset then the app can prompt them to get to 5000 steps. Moreover, if users can set their own daily step goal it will motivate them to get in their steps for the day. Again, steps feed into the daily Wellness score for the user, which motivates the user further.
 
 
-### In conclusion:
+#### In conclusion:
 
 Bellabeat should focus on how the Ivy can do all of the fitness tracking that a FitBit can do, with the added features of tracking an array of wellness indicators that can help women not only in physical fitness, but in all aspects of life.
