@@ -3,6 +3,19 @@
 * The first step is checking the summary statistics of the 3 datasets using the summary function
 
 * Checking how users track their weight
+```
+weight_cleaned %>% 
+  filter(IsManualReport == "True") %>% 
+  group_by(Id) %>% 
+  summarise("Manual Weight Report"=n()) %>%
+  distinct()
+
+weight_cleaned %>% 
+  filter(IsManualReport == "False") %>% 
+  group_by(Id) %>% 
+  summarise("Automatic Weight Report"=n()) %>%
+  distinct()
+```
   * Only 8 users track their weight, which is a tiny sample to perform analysis on. 
   * Of these, 5 people logged their data manually, out of which 4 people logged infrequently. 
   * Out of the 3 who tracked their weight automatically through a device, 2 did so only once. 
