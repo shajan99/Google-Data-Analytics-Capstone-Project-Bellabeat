@@ -173,5 +173,5 @@ ggplot(data=daily_activity_cleaned) +
 ![Calories Burned vs Minutes Active](https://user-images.githubusercontent.com/89126845/195810321-65865ee7-bd0b-4b69-aa5c-1b2d0e2a4aaf.png)
 
   * As expected, higher activity levels burn more calories
-  * Again, being fairly active for a longer time is at least as, if not more, energy demanding than being fairly active for a shorter time
+  * Again, being lightly active for a longer time is at least as, if not more, energy demanding than being moderately active for a shorter time
 
