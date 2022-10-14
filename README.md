@@ -106,6 +106,6 @@ The data is processed in R for ease of data transformation and visualization.
 * Merged the above datasets into merged_activity_sleep (merger of daily_activity and sleep), merged_activity_weight (merger of daily_activity and weight), and merged_data (merger of all 3 datasets). This was done using the merge function to allow for analysis 
 
 
-### Continue to:
+## Continue to:
 1. *R code*, for all code, including error checks, data cleaning, data transformation, analysis, and visualizations
 2. *Analysis and Visualtizations*, for a summary of the analysis carried out and the visualizations produced
