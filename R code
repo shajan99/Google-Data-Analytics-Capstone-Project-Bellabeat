@@ -3,11 +3,11 @@ install.packages("tidyverse")
 library("tidyverse")
 
 # Load datasets
-daily_activity <- read.csv("C:/Users/HP/OneDrive/Desktop/FitabaseData/dailyActivity_merged.csv")
+daily_activity <- read.csv("Z:\CaseStudiesFitabaseData/dailyActivity_merged.csv")
 
-sleep <- read.csv("C:/Users/HP/OneDrive/Desktop/FitabaseData/sleepDay_merged.csv")
+sleep <- read.csv("Z:\CaseStudies/FitabaseData/sleepDay_merged.csv")
 
-weight <- read.csv("C:/Users/HP/OneDrive/Desktop/FitabaseData/weightLogInfo_merged.csv")
+weight <- read.csv("Z:\CaseStudies/FitabaseData/weightLogInfo_merged.csv")
 
 
 ########## PROCESS PHASE
