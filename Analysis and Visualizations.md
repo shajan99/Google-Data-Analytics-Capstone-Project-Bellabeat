@@ -1,4 +1,4 @@
-### Analyze & Share phase
+### Analyze & Share phases
 
 #### The first step is checking the summary statistics of the 3 datasets using the summary function
 ```
