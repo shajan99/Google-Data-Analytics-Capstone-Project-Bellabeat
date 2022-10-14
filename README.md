@@ -2,6 +2,7 @@
 
 ## Bellabeat Case Study
 
+
 ### Ask
 
 **Business task**:  Analyze FitBit user data to discover trends that can be applied to Bellabeat users to inform Bellabeat's marketing strategy
@@ -9,6 +10,7 @@
 **Primary Stakeholders**:  Executive team
 
 **Secondary stakeholders**:  Marketing analytics team
+
 
 ### Prepare 
 
@@ -33,11 +35,12 @@ The datasets used are: daily_activity, sleep, and weight.
 
 These datasets are in long format.
 
+
 ### Process
 
 The data is processed in R for ease of data transformation and visualization.
 
-Descriptions of each dataset along with error checks are as follows:
+**Descriptions of each dataset along with error checks are as follows:**
 
 * daily_activity
   * This dataset entirely includes the dailyCalories, dailyIntensities, and dailySteps data
@@ -59,48 +62,51 @@ Descriptions of each dataset along with error checks are as follows:
 
 * sleep
   * Contains data for 24 unique IDs
-SleepDay should be split into Date & Time. Time column should be dropped as it is unnecessary for daily level analysis. Date column should be date type instead of character type
-TotalSleepRecords is ambiguous. This column is being dropped.
-TotalMinutesAsleep is the duration the user spent sleeping
-TotalTimeInBed is the duration the user spent in bed, both sleeping and awake 
-weight
-Contains data for 8 unique IDs
-Date should be split into Date & Time. Time column should be dropped as it is unnecessary for daily level analysis. Date column should be date type instead of character type
-WeightKg is the bodyweight of the user in kilograms
-WeightPound is the bodyweight of the user in pounds 
-Fat is the body fat percentage of the user. 65 out of 67 entries are NA, indicating that the user did not input this data. This column is being dropped
-BMI is the body mass index of the user
-IsManualReport indicates whether the user manually entered body composition information or if it was uploaded automatically through a WiFi connected device
-LogId is ambiguous. This column is being dropped
+  * SleepDay should be split into Date & Time. Time column should be dropped as it is unnecessary for daily level analysis. Date column should be date type instead of character type
+  * TotalSleepRecords is ambiguous. This column is being dropped.
+  * TotalMinutesAsleep is the duration the user spent sleeping
+  * TotalTimeInBed is the duration the user spent in bed, both sleeping and awake 
 
-For the error checks above, include screenshots of code (distinct, NA, duplicate, structure)
-Also include screenshots for the cleaning and transformation below
+* weight
+  * Contains data for 8 unique IDs
+  * Date should be split into Date & Time. Time column should be dropped as it is unnecessary for daily level analysis. Date column should be date type instead of character type
+  * WeightKg is the bodyweight of the user in kilograms
+  * WeightPound is the bodyweight of the user in pounds 
+  * Fat is the body fat percentage of the user. 65 out of 67 entries are NA, indicating that the user did not input this data. This column is being dropped
+  * BMI is the body mass index of the user
+  * IsManualReport indicates whether the user manually entered body weight information or if it was uploaded automatically through a WiFi connected device
+  * LogId is ambiguous. This column is being dropped
 
-Data cleaning & transformation changelog (Description of what changed and why):
 
-daily_activity
-Changed Date variable to Date type using mutuate function
-Dropped unnecessary columns using select function
-TrackerDistance, as it is made redundant because of TotalDistance
-LoggedActivitiesDistance, since most values are null
-ActivityDate, since a new Date column was made with the correct type
-Reordered columns using select function to bring Date column next to ID column
-sleep
-Removed duplicate entries using distinct function
-Divided  Date Time column into two using separate function
-Changing Date variable to Date type using mutate function
-Dropped unnecessary columns using select function
-TotalSleepRecords, as it is ambiguous
-Time, as it is not needed for any analysis
-Added TimeAwake column using mutate function as it is needed for analysis
-weight
-Divide Date Time column into two using separate function
-Changed Date variable to Date type using mutate function
-Dropped unnecessary columns using select function
-Fat, because most columns are NA
-LogID, because it is not needed for any analysis
-Time, because it is not needed for any analysis
-Merged the above datasets into merged_activity_sleep (merger of daily_activity and sleep), merged_activity_weight (merger of daily_activity and weight), and merged_data (merger of all 3 datasets). This was done using the merge function to allow for analysis 
+**Data cleaning & transformation changelog (Description of what changed and why):**
+
+* daily_activity
+  * Changed Date variable to Date type using mutuate function
+  * Dropped unnecessary columns using select function
+    * TrackerDistance, as it is made redundant because of TotalDistance
+    * LoggedActivitiesDistance, since most values are null
+    * ActivityDate, since a new Date column was made with the correct type
+  * Reordered columns using select function to bring Date column next to ID column
+
+* sleep
+  * Removed duplicate entries using distinct function
+  * Divided  Date Time column into two using separate function
+  * Changing Date variable to Date type using mutate function
+  * Dropped unnecessary columns using select function
+    * TotalSleepRecords, as it is ambiguous
+    * Time, as it is not needed for any analysis
+  * Added TimeAwake column using mutate function as it is needed for analysis
+
+* weight
+  * Divide Date Time column into two using separate function
+  * Changed Date variable to Date type using mutate function
+  * Dropped unnecessary columns using select function
+    * Fat, because most columns are NA
+    * LogID, because it is not needed for any analysis
+    * Time, because it is not needed for any analysis
+
+* Merged the above datasets into merged_activity_sleep (merger of daily_activity and sleep), merged_activity_weight (merger of daily_activity and weight), and merged_data (merger of all 3 datasets). This was done using the merge function to allow for analysis 
+
 
 ### Analyze
 
