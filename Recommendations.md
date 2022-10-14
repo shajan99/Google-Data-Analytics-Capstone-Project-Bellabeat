@@ -1,4 +1,4 @@
-### Act phase
+## Act phase
 
 I am applying my insights to Bellabeat's product, Ivy, a wellness tracker for women with the following features:
 * Cycle tracking
