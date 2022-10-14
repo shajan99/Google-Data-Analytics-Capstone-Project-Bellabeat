@@ -250,5 +250,5 @@ ggplot(data=daily_activity_cleaned) +
   ylab('Calories Burned')
 
 # As expected, higher activity levels burn more calories
-# Again, being fairly active for a longer time is at least as, if not more, productive than being fairly active for a shorter time
+# Again, being lightly active for a longer time is at least as, if not more, productive than being moderately active for a shorter time
 
