@@ -6,8 +6,8 @@
 
 **Business task**:  Analyze FitBit user data to discover trends that can be applied to Bellabeat users to inform Bellabeat's marketing strategy
 
-Primary Stakeholders:  Executive team
-Secondary stakeholders:  Marketing analytics team
+**Primary Stakeholders**:  Executive team
+**Secondary stakeholders**:  Marketing analytics team
 
 ### Prepare 
 
