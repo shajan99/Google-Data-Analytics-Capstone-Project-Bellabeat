@@ -9,24 +9,21 @@
   * These findings suggest that this dataset is weak, so I conducted no further analysis using this dataset.
 
 * Are users falling asleep in a proper time frame
-  * According to Healthline Media, which has strict sourcing guidelines, normal sleep for adults means falling asleep within 10 to 20 minutes.
-  * https://www.healthline.com/health/healthy-sleep/how-long-does-it-take-to-fall-asleep
+  * According to [Healthline Media](https://www.healthline.com/health/healthy-sleep/how-long-does-it-take-to-fall-asleep), which has strict sourcing guidelines, normal sleep for adults means falling asleep within 10 to 20 minutes.
   * 20 people out of 24 took more than 20 minutes to fall asleep.
   * 5 users had a recurring problem with falling asleep within 20 minutes (more than 20 times over the 2-month time frame)
   * If this is a regular occurrence for a user, then they may have an issue, such as insomnia being on their phones.
 
 * Are users getting enough active minutes
-  * According to Edward R. Laskowski, M.D., in his MayoClinic post, people need at least 150 minutes of moderate activity or 75 minutes of vigorous activity a week.
+  * According to Edward R. Laskowski, M.D., in his [MayoClinic post](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/exercise/faq-20057916#:~:text=As%20a%20general%20goal%2C%20aim,your%20risk%20of%20metabolic%20problems.), people need at least 150 minutes of moderate activity or 75 minutes of vigorous activity a week.
   * This means at least 22 minutes of moderate activity or 11 minutes of vigorous activity a day for adults.
-  * https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/exercise/faq-20057916#:~:text=As%20a%20general%20goal%2C%20aim,your%20risk%20of%20metabolic%20problems.
   * 30 users met this guideline for activity duration on at least one occasion.
   * Of these 30, 10 users got in the required duration of activity frequently (more than 20 times over the 2-month time frame).
   * The 3rd quartile of fairly active minutes is 19. Less than 25% of observations were collected where users got in the required duration of moderate activity.
   * The mean of very active minutes is 21.16. More than 50% of observations were collected where users got in more than the required duration of vigorous activity.
 
 * Are users getting enough steps
-  * According to Jennifer Huizen in her Medical News Today post, reviewed by Debra. Rose Wilson, Ph.D., MSN, less than 5000 steps a day is considered sedentary while 10,000 steps are a good aim for general fitness for adults.
-  * https://www.medicalnewstoday.com/articles/average-steps-per-day#increasing-steps
+  * According to Jennifer Huizen in her [Medical News Today post](https://www.medicalnewstoday.com/articles/average-steps-per-day#increasing-steps), reviewed by Debra. Rose Wilson, Ph.D., MSN, less than 5000 steps a day is considered sedentary while 10,000 steps are a good aim for general fitness for adults.
   * 25 users recorded getting more than 10,000 steps on at least one occasion.
   * Of these 25, only 7 users achieved 10,000 steps frequently (more than 20 times over the 2-month time frame).
   * All 33 users recorded getting less than 5000 on at least one occasion.
